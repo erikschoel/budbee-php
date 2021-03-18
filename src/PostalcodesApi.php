@@ -141,7 +141,7 @@ class PostalcodesApi
      * @return array[string]
      * @deprecated deprecated in favour of getPostalCodes($country)
      */
-    public function getPostalCodes()
+    public function getPostalCodesOld()
     {
         //parse inputs
         $resourcePath = "/postalcodes";
